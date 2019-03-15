@@ -21,8 +21,8 @@
     	property标签中：name属性代表此类的变量，值同为变量名，
     	value属性为此变量的值。
     -->
-	<bean id="helloWorld" class="com.tutorialspoint.HelloWorld">
-		<property name="message" value="Hello Yiwenjun"></property>
+	<bean id="helloWorld" class="com.tutorialspoint.HelloWorld" scope="prototype">
+		<!-- <property name="message" value="Hello Yiwenjun"></property> -->
 	</bean>
 	
   
